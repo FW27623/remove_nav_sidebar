@@ -1,0 +1,19 @@
+{
+    "manifest_version": 1,
+    "type": "extension",
+    "name": "移除QQ游戏中心",
+    "slug": "remove-qqgame-center",
+    "description": "删除QQ游戏中心侧边按钮",
+    "version": "0.1.0",
+    "author": [
+        {
+            "name": "FW27623",
+            "link": "https://github.com/FW27623"
+        }
+    ],
+    "injects": {
+        "renderer": "./renderer.js",
+        "main": "./main.js",
+        "preload": "./preload.js"
+    }
+}
