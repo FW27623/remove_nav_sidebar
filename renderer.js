@@ -2,8 +2,8 @@ export function onLoad() {
   // 定时器，用于检查按钮是否加载完成
   const interval = setInterval(() => {
     // 查找侧边栏按钮
-    const buttons = document.querySelectorAll(".tab-item.nav-item");
-    if (buttons.length > 0) {
+    const buttons = document.querySelectorAll(".tab-item");
+    if (buttons.length > 3) {
       clearInterval(interval);
       // 获取最后一个按钮
       const lastButton = buttons[buttons.length - 1];
