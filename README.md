@@ -1,0 +1,2 @@
+# remove_qqgame_center
+删除QQNT版本新加的游戏中心按钮
