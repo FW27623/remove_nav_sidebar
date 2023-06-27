@@ -8,7 +8,7 @@
 ### 使用方法
 `git clone`或下载zip文件解压，将文件夹移动至`BetterQQNT数据目录/plugins/`下面，重启QQNT或者打开控制台按下 `Ctrl+R` 刷新一下即可
 
-<img src="D:\QQNT\resources\app\BetterQQNT\plugins\remove_qqgame_center\1.png" alt="移除效果" style="zoom:50%;" />
+![效果图](./1.png)
 
 P.S. 由于本项目的特殊性，必要时会删库跑路😂
 
