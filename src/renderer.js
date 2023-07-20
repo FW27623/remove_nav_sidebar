@@ -2,7 +2,7 @@ export function onLoad() {
   // 定时器，用于检查按钮是否加载完成
   const interval = setInterval(() => {
     // 查找侧边栏按钮
-    const buttons = document.querySelectorAll("div.nav-item");
+    const buttons = document.querySelectorAll(".sidebar__upper div.nav-item");
     if (buttons.length > 3) {
       clearInterval(interval);
       // 定义要删除的按钮的索引数组

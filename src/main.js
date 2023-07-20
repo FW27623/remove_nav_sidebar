@@ -10,7 +10,7 @@ function onLoad(plugin) {
     // 在主窗口的渲染进程中执行 JavaScript
     webContents.executeJavaScript(`
       // 查找所有侧边栏按钮
-      const buttons = document.querySelectorAll('div.nav-item');
+      const buttons = document.querySelectorAll('.sidebar__upper div.nav-item');
       // 获取最后一个按钮
       const lastButton = buttons[buttons.length - 1];
       // 从父节点中移除最后一个按钮
