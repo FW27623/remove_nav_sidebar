@@ -2,7 +2,7 @@ const { BrowserWindow, ipcMain } = require("electron");
 
 function onLoad(plugin) {
   // 监听删除按钮请求
-  ipcMain.handle("LiteLoaderQQNT.removeLastButton", () => {
+  ipcMain.handle("LiteLoader.removeLastButton", () => {
     // 获取主窗口
     const mainWindow = BrowserWindow.getAllWindows()[0];
     const webContents = mainWindow.webContents;

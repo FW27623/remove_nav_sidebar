@@ -1,20 +1,25 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 3,
     "type": "extension",
     "name": "删除侧边栏按钮",
     "slug": "remove_nav_sidebar",
     "description": "删除指定的侧边栏按钮",
-    "version": "0.1.3",
-    "author": [
-        {
-            "name": "FW27623",
-            "link": "https://github.com/FW27623"
+    "version": "0.1.5",
+    "author": {
+        "name": "FW27623",
+        "link": "https://github.com/FW27623"
+    },
+    "repository": {
+        "repo": "FW27623/remove_nav_sidebar",
+        "branch": "main",
+        "use_release": {
+            "tag": "0.1.4",
+            "name": "remove_nav_sidebar.zip"
         }
-    ],
+    },
     "platform": [
         "win32",
-        "linux",
-        "darwin"
+        "linux"
     ],
     "injects": {
         "renderer": "./src/renderer.js",
