@@ -4,6 +4,7 @@
     "name": "删除侧边栏按钮",
     "slug": "remove_nav_sidebar",
     "description": "删除指定的侧边栏按钮",
+    "thumbnail": "./src/icon.png",
     "version": "0.1.5",
     "author": {
         "name": "FW27623",
