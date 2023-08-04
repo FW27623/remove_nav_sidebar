@@ -20,7 +20,8 @@
     },
     "platform": [
         "win32",
-        "linux"
+        "linux",
+        "darwin"
     ],
     "injects": {
         "renderer": "./src/renderer.js",
